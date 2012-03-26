@@ -1,0 +1,36 @@
+{
+	"noeuds": [
+		{
+			"id": 1,
+			"nom": "Marc"
+		},
+		{
+			"id": 2,
+			"nom": "Henry"
+		}
+	],
+	"poids": [
+		{
+			"personne1": 1,
+			"personne2": 2,
+			"poids": 10,
+			"date": 1332166673,
+			"message": [
+				"surf",
+				"nantes"
+			]
+		},
+		{
+			"personne1": 1,
+			"personne2": "null",
+			"poids": 40,
+			"date": 1332166673,
+			"message": [
+				"surf",
+				"nantes",
+				"snow",
+				"surf"
+			]
+		}
+	]
+}
