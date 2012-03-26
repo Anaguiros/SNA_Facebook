@@ -19,9 +19,9 @@ public class Application {
 		nodeIndex = graphDB.index().forNodes( "nodes" );
 		SocialGraph graph = new SocialGraph(graphDB, nodeIndex);
 		
-		//System.out.println(graph);
+		System.out.println(graph);
 		
-		File file = new File("/home/matt/workspace/ARS_FaceBook/src/exemple.json");
+		File file = new File("exemple.json");
 		
 		graph.readFromJSon(file);
 		
