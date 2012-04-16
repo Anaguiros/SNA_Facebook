@@ -41,6 +41,14 @@ public class SocialGraph {
 		return keywords;
 	}
 
+    public void jSonToData(){
+    	
+    }
+    
+    public void dataToJSon(){
+    	
+    }
+    
 	public void readFromJSon(File file){
     	
     	JsonFactory f = new JsonFactory();

@@ -23,7 +23,9 @@ public class Application {
 		
 		File file = new File("concrete.exemple.json");
 		
-		graph.readFromJSon(file);
+		System.out.println();
+		
+		//graph.readFromJSon(file);
 		
 		System.out.println(graph);
 		//System.out.println(graph.getPersonById(1).getKeywordTable());
