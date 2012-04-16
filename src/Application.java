@@ -21,7 +21,7 @@ public class Application {
 		
 		System.out.println(graph);
 		
-		File file = new File("exemple.json");
+		File file = new File("concrete.exemple.json");
 		
 		graph.readFromJSon(file);
 		
